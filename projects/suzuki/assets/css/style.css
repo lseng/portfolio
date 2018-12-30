@@ -16,6 +16,17 @@
   font-family: Circular-Bold;
   src: url("../fonts/ApercuBold.otf") format("opentype");
 }
+
+ol {
+    color: purple;
+}
+
+.section-header b {
+    color: #013243;
+}
+.section-content b {
+    color: black;
+}
 body {
     font-family: Circular-Bold;
     color: #3B3B3B;
@@ -24,23 +35,21 @@ body {
     background-color: #FAFAFA;
 }
 
+
 div {
     display: block;
 }
-.container {
-    width: 80%;
-    height: 200px;
-    background: aqua;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-}
+
 .side-section {
     display: inline;
     width: 15%;
     height: 200px;
-    background: red;
     float: left;
+    text-align: right;
+    padding-right: 5%;
+}
+.side-section h4{
+    color: darkgray;
 }
 .section-header {
     font-family: Circular-Bold;
@@ -92,6 +101,11 @@ div {
 
 .light {
     font-weight: 300;
+}
+
+.dark {
+    color: darkslategray;
+    text-decoration-color: darkslategray;
 }
 
 .header {
@@ -237,6 +251,7 @@ div {
 }
 
 .feature-no-display {
+    
     opacity: 0;
     -webkit-transform: translateY(15%) translateZ(0);
     -moz-transform: translateY(15%) translateZ(0);
@@ -262,8 +277,9 @@ div {
     transition-delay: 0.30s;
 }
 
+
 .feature-icon {
-    background-color: white;
+    background-color: black;
     border-radius: 50%;
     height: 5.625em;
     width: 5.625em;
@@ -271,8 +287,9 @@ div {
     justify-content: center;
     align-items: center;
     margin: auto;
-    box-shadow: 4px 14px 28px #393939;
+    
 }
+
 
 .feature-head-text {
     color: white;
@@ -280,12 +297,16 @@ div {
 }
 
 .feature-subtext {
-    color: white;
-    padding-top: 0;
+    color: darkslategray;
+    font-size: 15;
 }
 
 .feature-img {
-    max-width: 23px;
+    max-width: 200%;
+    border-radius: 50%;
+    height: 5.625em;
+    width: 5.625em;
+    object-fit: cover;
 }
 
 .white-section {
