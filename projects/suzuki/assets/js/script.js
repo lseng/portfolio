@@ -40,18 +40,18 @@ $(document).ready(function () {
         }
     });
     
-    //Don't display until scroll
-    $(window).scroll(function () {
-	if($this).scrollTop() != 0 {
-	    $('.feature-no-display').fadeIn("fast");
-        } else {
-		$('.feature-no-display').fadeOut("fast");
-        }
-    });
+
+
+
+
+
+
+
+
 
     $('.feature-no-display').click(function() { // when the button is clicked
     $('body,html').animate({scrollTop:0},500); // return to the top with a nice animation
-    });
+    }); 
 
     //Subscribe to newsletter
     $('#email-form').on('submit', function (e) {
