@@ -49,7 +49,9 @@ div {
     padding-right: 5%;
 }
 .side-section h4{
+    font-family: Circular-Book;
     color: darkgray;
+    font-size: 15;
 }
 .section-header {
     font-family: Circular-Bold;
@@ -307,6 +309,26 @@ div {
     height: 5.625em;
     width: 5.625em;
     object-fit: cover;
+}
+
+.feature-img-large {
+    max-width: 200%;
+    border-radius: 5%;
+    height: 75%;
+    width: 75%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-img-large-text{
+    padding: 5% 0 0 0;
+    font-family: Circular-Book;
+    color: darkslategrey;
+    font-size: 15;
+    text-align: justify;
+    
 }
 
 .white-section {
