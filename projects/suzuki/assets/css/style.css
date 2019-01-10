@@ -316,14 +316,14 @@ div {
     border-radius: 5%;
     height: 75%;
     width: 75%;
-    object-fit: cover;
+    object-fit: scale-down;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .feature-img-large-text{
-    padding: 5% 0 0 0;
+    padding: 2% 0 0 0;
     font-family: Circular-Book;
     color: darkslategrey;
     font-size: 15;
