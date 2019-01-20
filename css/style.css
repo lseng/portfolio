@@ -2848,6 +2848,11 @@ h6 {
     text-align: center;
     overflow: hidden;
     border-radius: 5px; }
+  .h_gallery_item .g_img_item:active {
+    transition-duration: 0.2s;
+    transform: scale(0.95);}
+
+
     .h_gallery_item .g_img_item:before {
       content: "";
       width: 100%;
@@ -2867,7 +2872,10 @@ h6 {
       transform: translateY(-50%);
       width: 100%;
       text-align: center;
-      opacity: 0; }
+      opacity: 0; }.img-fluid:active {
+    transition-duration: 0.2s;
+    transform: scale(0.95);
+}
   .h_gallery_item .g_item_text {
     text-align: center; }
     .h_gallery_item .g_item_text h4 {
